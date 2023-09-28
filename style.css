@@ -1,0 +1,843 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+.inner_wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar_wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    z-index: 1;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav_logo{
+    display: flex;
+    gap: 5px;
+}
+
+.nav_logo h1 a{
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.nav ul{
+    display: flex;
+    gap: 55px;
+}
+
+.nav ul li a{
+    color: #170C04;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header_wrapper{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 132px;
+}
+
+.header_title{
+    color: #170C04;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 120px;
+    margin-top: 30px; 
+    margin-bottom: 90px;
+}
+
+.header_button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buy button{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    padding: 12px 30px;
+    border-radius: 24px;
+    background: #E27B3A;
+    border: none;
+    cursor: pointer;
+}
+
+.see button{
+    color: #E27B3A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 30px 12px 29px; 
+    background: #FFF;
+    border-radius: 24px;
+    border: 1px solid #E27B3A;
+    cursor: pointer;
+}
+
+.main_cards{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.main{
+    border-radius: 8px;
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.main h3{
+    color: #170C04;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 24px 25px 11px 25px;
+}
+
+.main p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.main_text{
+    color: #170C04;
+    padding: 0 31px 24px 31px;
+}
+
+.main_more{
+    color: #E27B3A;
+    padding-bottom: 18px;
+    cursor: pointer;
+}
+
+.product_section{
+    padding-top: 118px;
+}
+
+.product_title{
+    text-align: center;
+    color: #170C04;
+}
+
+.product_title h4{
+    font-size: 32.25px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.product_title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    width: 505px;
+    margin: 0 auto 25px auto;
+    opacity: 0.6;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.products img{
+    width: 350px;
+    height: 290px;
+}
+
+.product_back{
+    border-radius: 20px;
+    background: #FCF2EB;
+    padding: 91px 103px;
+}
+
+.products h5{
+    color: #170C04;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.products p{
+    color: #E27B3A;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.blandet_box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    margin-top: 66px;
+}
+
+.blandit_back{
+    border-radius: 10px;
+    background: #FCF2EB;
+    padding: 55px 55px 48px 55px;
+}
+
+.blandit_back img{
+    width: 250px;
+    height: 180px;
+}
+
+.blandet_box h5{
+    color: #170C04;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+
+.blandet_box p{
+    color: #E27B3A;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.blandet_button{
+    text-align: center;
+    margin-top: 46px;
+}
+
+.blandet_button button{
+    color: #E27B3A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    padding: 12px 29px 12px 30px;
+    background: #FFF;
+    border-radius: 4px;
+    border: 1px solid #E27B3A;
+    cursor: pointer;
+}
+
+.dog_about_section{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.dog_chekup_image img{
+    width: 100%;
+    border-radius: 10px 500px / 200px;
+}
+
+.dog_about_info{
+    color: #E27B3A;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+}
+
+.dog_about_title{
+    color: #170C04;
+}
+
+.dog_about_title h6{
+    font-size: 32.25px;
+    font-weight: 500;
+    line-height: 45.15px;
+    width: 400px;
+    margin-top: 4px;
+    margin-bottom: 18px;
+}
+
+.dog_about_title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    opacity: 0.6;
+    width: 480px;
+}
+
+.dog_about_button{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.dog_about_button button{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.about_button_right button{
+    color: #FFF;
+    padding: 12px 30px;
+    border-radius: 24px;
+    background: #E27B3A;
+    border: none;
+    cursor: pointer;
+}
+
+.about_button_left button{
+    color: #E27B3A;
+    padding: 12px 30px 12px 29px;
+    border-radius: 24px;
+    border: 1px solid #E27B3A;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.work_section{
+    padding-top: 116px;
+    text-align: center;
+    color: #170C04;
+}
+
+.work_title{
+    font-size: 32.25px;
+    font-weight: 500;
+    line-height: 45.15px;
+    width: 200px;
+    margin: 0 auto 36px auto;
+}
+
+.work_cards{
+    display: flex;
+    justify-content: center;
+    gap: 83px;
+}
+
+.work_card img{
+    width: 100%;
+}
+
+.work_card_info h6{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px; 
+    margin: 51px 0 22px 0;
+}
+
+.work_card_info p{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-bottom: 15px;
+}
+
+.work_card_more{
+    color: #E27B3A;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 46px;
+}
+
+.work_section_button button{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 30px;
+    border-radius: 24px;
+    background: #E27B3A;
+    border: none;
+    cursor: pointer;
+}
+
+.gallery_section{
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+    padding-top: 120px;
+    margin-bottom: 120px;
+}
+
+.gallery_title{
+    color: #170C04;
+    text-align: center;
+}
+
+.gallery_title h6{
+    font-size: 32.25px;
+    font-weight: 500;
+    line-height: 45.15px;
+}
+
+.gallery_title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.6;
+    margin: 12px 0 26px 0;
+}
+
+.gallery_type{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+
+.gallery_type img{
+    width: 100%;
+    object-fit: fill;
+    opacity: 1;
+}
+
+.gallery_radius{
+    border-radius: 5px;
+}
+
+.gallery_red {
+    background: #900A08;
+    padding: 25px 41px 25px 37px;
+}
+
+.gallery_blue{
+    background: #243D7E;
+    padding: 25px 40px 27px 40px;
+}
+
+.gallery_babby{
+    background: #800125;
+    padding: 30px 48px 30px 44px;
+}
+
+.gallery_pink{
+    background: #C48CAE;
+    padding: 30px 48px 30px 44px;
+}
+
+.gallery_left{
+    border-radius: 10px;
+    background: #FCF2EB;
+    padding: 39px 46px 45px 46px;
+}
+
+.gallery_left img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.person_section{
+    margin-bottom: 86px;
+    color: #170C04;
+    text-align: center;
+}
+
+.person_title{
+    font-size: 32.25px;
+    font-weight: 500;
+    line-height: 45.15px;
+    margin-bottom: 52px;
+}
+
+.person_boxes{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    align-items: center;
+}
+
+.person_box{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.06);
+}
+
+.person_image{
+    margin: 30px 0 20px 0;
+}
+
+.person_text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    width: 490px;
+    padding: 0 30px 20px 30px;
+}
+
+.person_name{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 23px 0 5px 0;
+}
+
+.person_job{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.6;
+    margin-bottom: 21px;
+}
+
+.directions img:hover{
+    cursor: pointer;
+}
+
+.form_section{
+    background-image: url(./image/form_back.png);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+    padding: 102px 0;
+    gap: 20px;
+}
+
+.form_title{
+    color: #FFF;
+}
+
+.form_title h6{
+    font-size: 31.25px;
+    font-weight: 500;
+    line-height: 40.6px;
+    width: 310px;
+    margin-bottom: 17.91px;
+}
+
+.form_title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    width: 400px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form_input input{
+    color: #170C04;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40.6px; 
+    border-radius: 10px 0 0 10px;
+    background: #FFF;
+    border: none;
+    padding: 15px 0 14px 21px;
+    width: 350px;
+}
+
+.form_button button{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40.6px;
+    padding: 15.87px 37.44px 14px 37px;
+    border-radius: 0px 10px 10px 0px;
+    background: #E27B3A;
+    border: none;
+}
+
+.footer_wrapper{
+    background-image: url(./image/footer_back.png);
+    background-size: cover;
+    background-position: center;
+    padding: 58.5px 0 105px 0;
+}
+
+.footer_wrapper a{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.footer_icon{
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.footer_product a{
+    font-size: 26px;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.footer_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_email span{
+    opacity: 0.8;
+    color: #E27B3A;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer_enternet{
+    margin-right: 130px;
+}
+
+@media screen and (max-width:1150px){
+    .product_back{
+        padding: 60px 40px;
+    }
+
+    .blandit_back{
+        padding: 60px 40px;
+    }
+
+    .blandit_back img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .header_image img{
+        width: 500px;
+    }
+    
+    .products img{
+        width: 300px;
+    }
+
+    .blandit_back img{
+        width: 170px;
+    }
+
+    .form_title h6,
+    .form_title p{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .header_image img{
+        width: 400px;
+    }
+
+    .main_cards{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .products img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .blandet_box{
+        grid-template-columns: auto auto;
+    }
+    
+    .blandit_back img{
+        width: 250px;
+    }
+
+    .dog_about_title p{
+        width: 400px;
+    }
+
+    .form_input input{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .header_image img{
+        width: 300px;
+    }
+
+    .blandet_box{
+        grid-template-columns: auto;
+    }
+    
+    .blandit_back img{
+        width: 100%;
+    }
+
+    .dog_about_title p{
+        width: 360px;
+    }
+
+    .dog_about_title h6{
+        width: 360px;
+    }
+
+    .work_cards{
+        gap: 40px;
+    }
+
+    .gallery_section{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .header_wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .dog_about_section{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .dog_about_text{
+        margin: 0 auto;
+    }
+
+    .dog_about_title h6{
+        width: 400px;
+    }
+
+    .dog_about_title p{
+        width: 400px;
+    }
+
+    .work_cards{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .person_text{
+        width: 400px;
+    }
+
+    .form_section{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 40px 0;
+    }
+
+    .footer_contact{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .footer_enternet{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .product_title p{
+        width: 100%;
+    }
+
+    .person_text{
+        width: 330px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .nav ul{
+        gap: 20px;
+    }
+
+    .header_title{
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    .main_cards{
+        grid-template-columns: auto;
+    }
+
+    .dog_about_title h6,
+    .dog_about_title p{
+        width: 100%;
+    }
+
+    .dog_about_button{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .work_cards{
+        grid-template-columns: auto;
+    }
+
+    .gallery_type{
+        grid-template-columns: auto;
+    }
+
+    .person_boxes{
+        gap: 10px;
+    }
+    
+    .person_text{
+        width: 240px;
+    }
+
+    .form{
+        margin: 0 10px;
+    }
+
+    .form_input input{
+        width: 100%;
+    }
+
+    .footer_info,
+    .footer_contact{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
+        gap: 20px 0;
+    }
+}
